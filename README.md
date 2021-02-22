@@ -1,4 +1,4 @@
-# demo
+# 基于Node-MQTT-硬件设备交互 的数据可视化大屏
 
 ## Project setup
 ```
