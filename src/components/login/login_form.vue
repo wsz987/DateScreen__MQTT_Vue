@@ -24,7 +24,7 @@
         <el-checkbox label="记住密码" name="type" class="remember" v-model="loginForm.remember"></el-checkbox>
       </el-form-item>
       <el-form-item>
-        <el-button type="primary" @click="submitLoginForm">登录</el-button>
+        <el-button type="primary" @click="submitLoginForm">Demo 登录</el-button>
       </el-form-item>
     </el-form>
   </div>
