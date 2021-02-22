@@ -22,3 +22,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+![image](https://github.com/wsz987/DateScreen__MQTT_Vue/blob/master/src/assets/view.png?raw=true)
