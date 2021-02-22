@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>智能工厂生产车间大屏</title>
+  <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+
+  <% if(htmlWebpackPlugin.options.isProd){ %>
+  <!-- nprogress 的样式表文件 -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.css" />
+  <!-- element-ui 的样式表文件 -->
+  <link rel="stylesheet" href="https://unpkg.zhimg.com/element-ui/lib/theme-chalk/index.css">
+
+  <!-- v-echarts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/v-charts/lib/style.min.css">
+
+  <script src="https://cdn.staticfile.org/vue/2.5.22/vue.min.js"></script>
+  <script src="https://cdn.staticfile.org/vue-router/3.0.1/vue-router.min.js"></script>
+  <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+  <script src="https://cdn.staticfile.org/echarts/4.1.0/echarts.min.js"></script>
+  <script src="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.js"></script>
+
+  <!-- v-echarts -->
+  <script src="https://cdn.jsdelivr.net/npm/v-charts/lib/line.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/v-charts/lib/histogram.min.js"></script>
+
+  <!-- xlsx.js -->
+  <script src="https://unpkg.zhimg.com/xlsx/dist/xlsx.full.min.js"></script>
+
+  <!-- element-ui 的 js 文件 -->
+  <script src="https://unpkg.zhimg.com/element-ui/lib/index.js"></script>
+
+  <% } %>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
