@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import './assets/global.less' // 全局样式
+import '@/assets/global.less' // 全局样式
 
 import '@/util/filter'
 
@@ -23,8 +23,8 @@ Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 
 Vue.prototype.$vm = new Vue({
-  mode: 'history',
-  base: process.env.BASE_URL,
+  // mode: 'history',
+  // base: process.env.BASE_URL,
   router,
   store,
   render: h => h(App)

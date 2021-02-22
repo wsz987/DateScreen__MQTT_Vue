@@ -4,7 +4,7 @@ import {
 } from 'element-ui'
 // https://www.npmjs.com/package/mqtt
 const mqtt = require('mqtt')
-const WS_BASEURL = process.env.NODE_ENV === 'development' ? 'ws://localhost:1884' : ''
+const WS_BASEURL = process.env.NODE_ENV === 'development' ? 'ws://localhost:1884' : 'ws://localhost:1884'
 // 本地
 const client = mqtt.connect(WS_BASEURL, {
   username: 'admin',

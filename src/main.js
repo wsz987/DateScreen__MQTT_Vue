@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import './plugins/element.js'
 
-import './assets/global.less' // 全局样式
+import '@/assets/global.less' // 全局样式
 
 import '@/util/filter'
 
