@@ -8,7 +8,7 @@
 
 登录，注册功能为半成品，相关 `axios`有待封装。
 
-[Demo纯前端](https://static-62ce10ab-8126-44bf-9616-fe9fee9583b5.bspapp.com/)  丢uniCloud托管了 后端node就不展示了没有云服务器部署 贫穷~〒▽〒
+[Demo「纯前端」](https://static-62ce10ab-8126-44bf-9616-fe9fee9583b5.bspapp.com/)  丢uniCloud托管了 后端node就不展示了没有云服务器部署 贫穷~〒▽〒
 
 项目基于Node后端的 `MQTT`协议 来呈现硬件采集设备实时数据的前端可视化大屏效果   
 
