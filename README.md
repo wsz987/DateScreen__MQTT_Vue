@@ -10,7 +10,11 @@
 
 [Demo「纯前端」](https://static-62ce10ab-8126-44bf-9616-fe9fee9583b5.bspapp.com/)  丢uniCloud托管了 后端node就不展示了没有云服务器部署 贫穷~〒▽〒
 
-项目基于Node后端的 `MQTT`协议 来呈现硬件采集设备实时数据的前端可视化大屏效果   
+**原理流程图**
+
+前端<--`WebSocket`-->Node后端<--`MQTT`--> 硬件采集设备
+
+呈现硬件采集设备实时数据的前端可视化大屏效果   
 
 使用说明：[Node 镶嵌MQTT及前端WebSocket通讯](https://wsz987.gitee.io/2021/01/30/node/Node-MQTT-WebSocket/)
 
