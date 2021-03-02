@@ -10,7 +10,7 @@
 
 [Demo「纯前端」](https://static-62ce10ab-8126-44bf-9616-fe9fee9583b5.bspapp.com/)  丢uniCloud托管了 后端node就不展示了没有云服务器部署 贫穷~〒▽〒
 
-**原理流程图**
+**流程图**
 
 前端<--`WebSocket` `axios`-->Node后端<--`MQTT`--> 硬件采集设备
 
